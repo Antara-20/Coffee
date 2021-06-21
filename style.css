@@ -1,0 +1,88 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	width:960px;
+}
+h1, h2, h3,h4 {
+	color:brown;
+}
+nav li {
+	display:inline;
+	float:left;
+}
+nav a:link,nav a:visited {
+	background-color:brown;
+	color:white;
+	width:160px;
+	display:block;
+	text-align:center;
+	padding: 10px 0;
+}
+a:link,a:visited {
+	text-decoration:none;
+	color:brown;
+	font-weight:bold;
+}
+nav ul {
+	list-style-type:none;
+	padding:0;
+}
+nav a:hover {
+
+	background-color:black;
+}
+header {
+	background-image: url("Coffee\ image/coff1.jpeg");
+	height:100px;
+	margin-bottom:70px;
+}
+header h1 {
+	color:rgba(256,256,256,.8);
+	margin-left:30px;
+	margin-top:30px;
+	font-size:50px;
+}
+footer{
+	margin:40px 0;
+}
+footer nav a:link, footer nav a:visited {
+	background-color:white;
+	color:gray;
+	width:160px;
+	display:block;
+	text-align:center;
+    /* padding: 10px 0; */
+    text-decoration: none;
+}
+aside{
+	width:280px;
+	float:right;
+	background-color: tan;
+	text-align: center;
+	font-weight: bold;
+	padding: 20px;
+	margin-left: 20px;
+
+}
+.photoleft{
+	margin-right: 20px;
+	float: left;
+}
+.photoright{
+	float:right;
+	margin-left: 20px;
+}
+video{
+	margin-bottom: 20px;
+	margin-left: 160px;
+}
+table{
+	border-collapse: collapse;
+	
+}
+td,th{
+	border: 1px solid black;
+	width:20%;
+	text-align: center;
+	padding: 5px;
+}
